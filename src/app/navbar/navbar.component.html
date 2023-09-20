@@ -1,0 +1,34 @@
+<mat-toolbar class="color">
+    <button (click)="menubtnClicked()" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Overview</span>
+    <span class="example-spacer"></span>
+    <div class="flex-container">
+        <ul>
+            <li>
+                <!-- icon 1 -->
+                <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+                    <mat-icon matBadge="4" matBadgeColor="warn">notifications</mat-icon>
+                  </button>
+
+            </li>
+            <li>
+                <!-- icon 2 -->
+
+                 <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+                    <mat-icon matBadge="12" matBadgeColor="warn">chat</mat-icon>
+                 </button>
+
+            </li>
+            <li class="account">
+                <button mat-button [matMenuTriggerFor]="menu"><img width="40px" height="40px" src="https://images.pexels.com/photos/5490276/pexels-photo-5490276.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">  User  <i class="fa-sharp fa-solid fa-caret-down"></i></button>
+                <mat-menu #menu="matMenu">
+                <button mat-menu-item><mat-icon style="color: blue;">person</mat-icon>Profile</button>
+                <button mat-menu-item><mat-icon style="color: red;">logout</mat-icon>Log-Out</button>
+                </mat-menu>
+                
+          </li>
+        </ul>
+    </div>
+  </mat-toolbar>

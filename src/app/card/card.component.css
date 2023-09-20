@@ -1,0 +1,46 @@
+.card1{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #191C24;
+    border-radius: 5px;
+}
+.card1:hover{
+    background-color: #2E3138;
+}
+.p-l h2{
+    font-weight: bolder;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.p-l h2 span{
+    font-weight: 500;
+    font-size: medium;
+}
+.p-l h3{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    color: #35446C;
+}
+
+.card-icon{
+    font-size: 20px;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 40%;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.minus{
+    color: red;
+}
+.plus{
+    color: green;
+}

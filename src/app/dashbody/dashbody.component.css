@@ -1,0 +1,24 @@
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: black;
+    width: 100%;
+}
+mat-card{
+    color: black;
+    border-radius: 7px;
+}
+.main-mini{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+app-table{
+    background-color: black;
+}
+.pie{
+  margin-right: 50px;
+}

@@ -1,0 +1,83 @@
+    <!-- cards -->
+    <div class="cards">
+        <!-- card 1 -->
+        <mat-card>
+        <app-card
+        cntclr="plus"
+        bg="green"
+        icon="trending_up"
+        describtion="Potential Growth"
+        amount="$12.45"
+        count="+3.5%"
+        ></app-card>
+        </mat-card>
+        
+        <!-- card 2 -->
+        <mat-card>
+            <app-card
+        cntclr="plus"
+        bg="green"
+        icon="trending_up"
+        describtion="Current Revenue"
+        amount="$17.34" 
+        count="+11%"
+        ></app-card>
+            </mat-card>
+    
+                <!-- card 3 -->
+        <mat-card>
+            <app-card
+            cntclr="minus"
+            bg="red"
+            icon="trending_down"
+            describtion="Daily Income"
+            amount="$12.34" 
+            count="-2.4%"
+            ></app-card>
+            </mat-card>
+            
+                <!-- card 4 -->
+        <mat-card>
+            <app-card
+            cntclr="plus"
+            bg="green"
+            icon="trending_up"
+            describtion="Current Expense"
+            amount="$31.53" 
+            count="+3.5%"
+            ></app-card>
+            </mat-card>
+    
+    </div>
+    
+    <!-- main and mini graph -->
+    <div class="row">
+        <div class="col-12">
+            <div class="main-mini">
+                <div class="col-6">
+                    <div class="line">
+                        <app-maingraph></app-maingraph>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="pie">
+                        <app-minigraph></app-minigraph>
+                </div>
+             </div>
+        
+
+    </div>
+            
+    </div>
+</div>
+    
+    
+    
+   
+    <!-- <app-market></app-market> -->
+    
+    <app-table></app-table>
+    
+    <!-- footer -->
+
+    <app-footer></app-footer>

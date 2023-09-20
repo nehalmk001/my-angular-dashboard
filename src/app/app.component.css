@@ -1,0 +1,12 @@
+.example-container{
+    height: 90vh;
+}
+.mat-drawer{
+    width: 210px;
+}
+mat-drawer-content{
+    background-color: black;
+}
+mat-drawer{
+    background-color: black;
+}

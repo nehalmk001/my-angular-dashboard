@@ -1,0 +1,29 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+.color{
+    background-color: white;
+}
+.flex-container{
+    width: 100%;
+}
+.flex-container ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.flex-container ul li{
+    margin-right: 5px;
+}
+img{
+    border-radius: 50%;
+}
+.account i{
+    color: #5F6368 ;
+}
+  
+  
+
